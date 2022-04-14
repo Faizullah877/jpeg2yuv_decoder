@@ -15,7 +15,7 @@
 using namespace std;
 namespace fs = std::filesystem;
 
-#define MAX_PATH 256
+constexpr auto MAX_PATH = 512;
 static const std::string opt_input = "-i";
 static const std::string opt_output = "-o";
 static const std::string opt_output_fmt = "-pack"; // 444I or 444P
