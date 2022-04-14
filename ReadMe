@@ -1,0 +1,10 @@
+jpeg2yuv_decoder is a simple command line tool to decode a group of JPEG-1 images to YUV video file. The JPEG-1 images are decoded using libjpeg-turbo library.
+sample command is:
+> jpeg2yuv_decoder_v01.exe -i [input_folder] -o [outputFile.yuv] -pix_fmt YUV -pack 444P
+
+options are :
+ -i       = path of folder containing input JPEG Images
+ -o       = output .yuv file name
+ -pix_fmt = RGB|YUV output pixels color space
+ -pack    = 444P|444I output pixels packing in yuv file. 
+
